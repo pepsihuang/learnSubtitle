@@ -64,7 +64,7 @@ const finishInput = async (link: string, router: PtRouter, route: VueRoute): Pro
   }
 
   let contentData = res.data as ContentData
-  //console.log('解析完成:',contentData)
+  console.log('解析完成:',contentData)
   _createRoom(contentData, router, route)
 }
 
